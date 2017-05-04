@@ -1,0 +1,94 @@
+body{
+  margin: 0 auto;
+  width: auto;
+  background-color: gray;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  height: 30px;
+}
+nav li{
+  padding: 10px 40px;
+  align-content: flex-end;
+  top: 50%
+}
+
+.intro{
+  //position: absolute;
+  background: url("images/mac.jpg");
+  background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+  height: 700px;
+
+}
+
+
+
+h1 {
+  //position: relative;
+  text-align: center;
+  vertical-align: center;
+  margin: 0;
+  height: 350px;
+  line-height: 350px;
+  font-size: 100px;
+  color: #827272;
+
+  font-family: 'Courgette', cursive;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+.icons img{
+  height: 100px;
+  width: 100px;
+  margin: 0px 50px;
+
+}
+
+.about-me{
+  height: 700px;
+  display: flex;
+}
+
+.about-me-text{
+  flex: 0 0 55%;
+  //flex-grow: 7;
+  justify-content: flex-start;
+  //width: 60%;
+  padding: 30px 0px 30px 50px;
+}
+.about-me-logos{
+  //width: 40%;
+  flex: 0 0 40%;
+  //flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  //flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+
+}
+.about-me-logos img{
+  border-radius: 20px;
+  height: 180px;
+  width: 180px;
+  margin: 20px auto;
+}
+
+.projects{
+  height: 700px;
+  background-color: #389e83;
+}
